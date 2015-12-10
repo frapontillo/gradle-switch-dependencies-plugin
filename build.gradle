@@ -46,7 +46,9 @@ def propTags = project.properties
 // load gradle publishing key and secret from gradle.publish.properties
 // (see https://issues.gradle.org/browse/GRADLE-3281)
 Properties props = new Properties()
-new File("gradle.publish.properties").withInputStream { props.load(it) }
+try {
+    new File("gradle.publish.properties").withInputStream { props.load(it) }
+} catch (Exception ignored) {}
 System.setProperty('gradle.publish.key', props.getProperty("key") ?: '')
 System.setProperty('gradle.publish.secret', props.getProperty("secret") ?: '')
 
