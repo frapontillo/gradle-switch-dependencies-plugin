@@ -11,7 +11,7 @@ _Gradle Plugin to conditionally switch dependencies._
 
 ```gradle
 plugins {
-    id "com.github.frapontillo.switchdependencies" version "0.0.1"
+    id "com.github.frapontillo.switchdependencies" version "0.0.1-alpha.0"
 }
 ```
 
