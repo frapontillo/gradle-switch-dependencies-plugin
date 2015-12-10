@@ -1,6 +1,8 @@
 gradle-switchdependencies-plugin
 ================================
 
+[![Latest Release][release-image]][release-url]
+[![Build Status][travis-image]][travis-url]
 [![Apache License][license-image]][license-url]
 
 _Gradle Plugin to conditionally switch dependencies._
@@ -68,6 +70,12 @@ Both `truthy` and `falsy` closures are optional, declare them only if you need t
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
+
+[travis-image]: http://img.shields.io/travis/frapontillo/gradle-switch-dependencies-plugin/develop.svg?style=flat
+[travis-url]: https://travis-ci.org/frapontillo/gradle-switch-dependencies-plugin
+
+[release-image]: https://img.shields.io/github/release/frapontillo/gradle-switch-dependencies-plugin.svg?style=flat
+[release-url]: https://github.com/frapontillo/gradle-switch-dependencies-plugin/releases
 
 [license-image]: http://img.shields.io/badge/license-Apache_2.0-blue.svg?style=flat
 [license-url]: LICENSE
