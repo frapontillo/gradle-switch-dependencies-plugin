@@ -1,0 +1,3 @@
+# Put your Gradle publishing key and secret in a "gradle.publish.properties" file
+key=you-user-key
+secret=your-secret
